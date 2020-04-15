@@ -1,0 +1,5 @@
+# Ignorando carpeta de imagenes del proyecto
+img/
+
+# *.jpg
+# *.svg
