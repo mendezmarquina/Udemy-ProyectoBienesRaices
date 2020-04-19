@@ -2,13 +2,34 @@
 .contenedor{
     max-width: 1200px; /* toma todo el ancho de la página hasta el maximo indicado*/
     margin: 0 auto; /* centrar el contenedor*/
+
 }
 
 /* Header */
 .site-header.inicio{
     background-image: url(../img/header.jpg);
     background-position: center;
-    background-size: cover; /*forzar que tome todo el espacio en altura y en ancho*/
-    height: 100vh; /*medida para obtener el alto de la pantalla*/
+    background-size: cover; /* forzar que tome todo el espacio en altura y en ancho */
+    height: 100vh; /* medida para obtener el alto de la pantalla */
     min-height: 600px;
+}
+.barra{
+    display: flex; /* habilitar flexbox */
+    justify-content: space-between;/* permite alinear horizontalmente */
+    align-items: center;/* permite alinear verticalmente */
+    padding-top: 30px;
+}
+
+/* Navegación */
+.navegacion a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.navegacion a:hover{
+    color: #17B100;
+}
+.navegacion a:last-of-type{
+    margin: 0;    
 }
