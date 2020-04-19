@@ -1,10 +1,14 @@
+html{
+    font-size: 62.5%; /*  Reset para REMS - 62.5% = 10px de 16px */
+}
+
 body{
     font-family: 'Lato', sans-serif;
 }
 
 /** Globales **/
 .contenedor{
-    max-width: 1200px; /* toma todo el ancho de la página hasta el maximo indicado*/
+    max-width: 120rem; /* toma todo el ancho de la página hasta el maximo indicado*/
     margin: 0 auto; /* centrar el contenedor*/
 
 }
@@ -15,21 +19,21 @@ body{
     background-position: center;
     background-size: cover; /* forzar que tome todo el espacio en altura y en ancho */
     height: 100vh; /* medida para obtener el alto de la pantalla */
-    min-height: 600px;
+    min-height: 60rem; /* 60rem = 600px */
 }
 .barra{
     display: flex; /* habilitar flexbox */
     justify-content: space-between;/* permite alinear horizontalmente */
     align-items: center;/* permite alinear verticalmente */
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 /* Navegación */
 .navegacion a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
+    font-size: 1.8rem;
+    margin-right: 2.0rem;
 }
 .navegacion a:hover{
     color: #17B100;
