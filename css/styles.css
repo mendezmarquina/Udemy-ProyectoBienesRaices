@@ -1,6 +1,10 @@
+/** Globales **/
+.contenedor{
+    max-width: 1200px; /* toma todo el ancho de la página hasta el maximo indicado*/
+    margin: 0 auto; /* centrar el contenedor*/
+}
 
-
-/* HEADER */
+/* Header */
 .site-header.inicio{
     background-image: url(../img/header.jpg);
     background-position: center;
