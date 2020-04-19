@@ -1,9 +1,10 @@
-#site-header{
-    background-color: red;
-}
-.encabezado{
-    color: darkred;
-}
-.mayusculas{
-    text-transform: uppercase;
+
+
+/* HEADER */
+.site-header.inicio{
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover; /*forzar que tome todo el espacio en altura y en ancho*/
+    height: 100vh; /*medida para obtener el alto de la pantalla*/
+    min-height: 600px;
 }
