@@ -1,5 +1,10 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
 html{
+    box-sizing: border-box;
     font-size: 62.5%; /*  Reset para REMS - 62.5% = 10px de 16px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body{
@@ -48,6 +53,7 @@ h4{
     text-decoration: none;
     font-size: 1.8rem;
     padding: 1rem 3rem;
+    display: inline-block;
 }
 .boton-amarillo{
     background-color: #e08709;
