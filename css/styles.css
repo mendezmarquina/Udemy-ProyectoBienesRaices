@@ -41,6 +41,22 @@ h4{
     text-align: center;
 }
 
+ /** Botones **/
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+.boton-amarillo{
+    background-color: #e08709;
+}
+.boton-verde{
+    background-color: #71b100;
+}
+
+
 /* Header */
 .site-header.inicio{
     background-image: url(../img/header.jpg);
@@ -110,4 +126,8 @@ h4{
 .contenido-anuncio h3, 
 .contenido-anuncio p{
     margin:0;
+}
+.precio{
+    color: #71b100;
+    font-weight: 700;
 }
