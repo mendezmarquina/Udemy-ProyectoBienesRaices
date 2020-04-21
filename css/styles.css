@@ -45,6 +45,9 @@ h4{
 .centrar-texto{
     text-align: center;
 }
+.d-block{
+    display: block!important;
+}
 
  /** Botones **/
 .boton{
@@ -53,7 +56,9 @@ h4{
     text-decoration: none;
     font-size: 1.8rem;
     padding: 1rem 3rem;
+    margin-top: 3rem;
     display: inline-block;
+    text-align: center;
 }
 .boton-amarillo{
     background-color: #e08709;
@@ -136,4 +141,8 @@ h4{
 .precio{
     color: #71b100;
     font-weight: 700;
+}
+.ver-todas{
+    display: flex;
+    justify-content: flex-end;
 }
