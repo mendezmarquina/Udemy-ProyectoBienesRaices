@@ -9,6 +9,9 @@ body{
 }
 
 /** Globales **/
+img{
+    max-width: 100%;/* esta declaración nunca debe faltar */
+}
 .contenedor{
     max-width: 120rem; /* toma todo el ancho de la página hasta el maximo indicado*/
     margin: 0 auto; /* centrar el contenedor*/
@@ -89,4 +92,13 @@ h4{
 }
 .icono h3{
     text-transform: uppercase;
+}
+
+/** Anuncios **/
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+}
+.anuncio{
+    flex-basis: calc(33.3% - 1rem)
 }
