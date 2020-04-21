@@ -5,13 +5,13 @@ html{
 body{
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
 }
 
 /** Globales **/
 .contenedor{
     max-width: 120rem; /* toma todo el ancho de la página hasta el maximo indicado*/
     margin: 0 auto; /* centrar el contenedor*/
-
 }
 
 h1{
@@ -31,7 +31,12 @@ h4{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
+.fw-300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+}
 
 /* Header */
 .site-header.inicio{
@@ -80,4 +85,8 @@ h4{
 }
 .icono{
     flex-basis: calc(33.3% - 1rem);    
+    text-align: center;
+}
+.icono h3{
+    text-transform: uppercase;
 }
