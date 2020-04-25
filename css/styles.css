@@ -291,9 +291,15 @@ h4{
     margin: 0;
     padding: 3rem 0;
 }
+
 /* Anuncio */
 .resumen-propiedad{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Contacto */
+label{
+    display: block;
 }
